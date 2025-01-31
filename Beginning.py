@@ -1,6 +1,8 @@
-height = int(input("Enter height: "))
-for g in range(0,height):
-            print(" "*(height-g-1),end='')
-            print("#"*(g+1)+" "+"#"*(g+1))
+try:
+    height = int(input("Enter height: "))
+    for g in range(0,height):
+                print(" "*(height-g-1),end='')
+                print("#"*(g+1)+" "+"#"*(g+1))
+except ValueError:
+    print("A number nigger")
 
-    
